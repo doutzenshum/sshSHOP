@@ -46,8 +46,8 @@ public class MessageUtilImpl implements MessageUtil {
 			post.releaseConnection();
 		}
 	}
-/*	
-	public static void main(String[] args) throws Exception {
+	
+/*	public static void main(String[] args) throws Exception {
 		//1. 打开浏览器
 		HttpClient client = new HttpClient();
 		//2. 创建请求的方式：get/post
